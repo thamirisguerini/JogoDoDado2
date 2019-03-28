@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="bg-menu">
+      Dice Games
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg-imagem">
+
+    <img class = "avatar2" src = "./assets/imgs/GifsDadogif.gif"  id="face">
+
+    <ion-list>
+        <ion-item >
+            <ion-label  color="aplicativo" floating>Seu Número: </ion-label>
+            <ion-input type="text" [(ngModel)]="numero" ></ion-input>
+        </ion-item>
+    </ion-list>
+
+      <button ion-button color="aplicativo" full icon-start (click)="gerandojogo()">
+          <ion-icon color="appEscrita" name="play"></ion-icon>
+            Jogar
+      </button>
+
+      <p class="nome" > Thamiris </p>
+
+</ion-content>

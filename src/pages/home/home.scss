@@ -1,0 +1,38 @@
+page-home {
+  .avatar img{
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 19%;
+    margin-bottom: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    div{text-align: center;}
+
+    .bg-imagem{
+
+      /* Background */
+      background-image: url('../assets/imgs/background1.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+
+      /* Title */
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      font-style: italic;
+      text-transform: uppercase;
+      color: black;
+      text-shadow: 3px 2px #e2140f ;
+    }
+
+    .bg-menu{
+      text-align: center;
+      text-transform: uppercase;
+      color: black;
+    }
+}
+

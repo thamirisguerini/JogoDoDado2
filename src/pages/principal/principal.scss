@@ -1,0 +1,30 @@
+page-principal {
+  .bg-imagem{
+    background-image: url('../assets/imgs/background2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .nome{
+    text-align: center;
+    font-size: 110%;
+    font-weight:bold;
+    margin-top: 18%;
+  }
+
+  .bg-menu{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    ;
+  }
+
+.avatar2{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+    }
+}
